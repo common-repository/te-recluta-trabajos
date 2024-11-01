@@ -1,0 +1,117 @@
+.te-recluta-alert {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px 10px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    list-style: none;
+}
+
+.te-recluta-alert--info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.te-recluta-alert--success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.te-recluta-alert--warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.te-recluta-alert--error{
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+.te-recluta-alert--validation{
+    color: #D63301;
+}
+
+.te-recluta-jobs__item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.te-recluta-jobs__item a{
+    text-decoration: none !important;
+}
+
+.te-recluta-jobs__item:last-child{
+    margin-bottom: 0;
+}
+
+.te-recluta-jobs__time{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    position: absolute;
+    right: 25px;
+}
+
+.te-recluta-jobs__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #683A8A;
+    margin-bottom: 15px;
+}
+
+.te-recluta-jobs__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.te-recluta-jobs__discrict{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+@media (max-width:767px){
+    .te-recluta-jobs__time{
+		position: relative;
+		padding: 0 25px;
+    }
+}
+
+.te-recluta-pagination{
+    padding: 25px 0;
+}
+
+.te-recluta-pagination ul{
+    list-style: none !important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.te-recluta-pagination li{
+    padding: 5px 10px;
+}
+
+.te-recluta-pagination li a{
+    text-decoration: none !important;
+    color: #683A8A;
+}
+
+.te-recluta-pagination li a:hover, .te-recluta-pagination li.active a{
+    color: #000;
+    font-weight: bolder;
+}
